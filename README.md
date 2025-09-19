@@ -1,4 +1,4 @@
-TP1_AySO_Kosinski_Luca 
-Alumno: <Luca Kosinski>
-División: <114>
-Turno: <Turno Mañana>
+TP1_AySO_Kosinski_Luca
+Alumno: Luca Kosinski
+División: 114
+Turno: Mañana
