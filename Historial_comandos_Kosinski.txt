@@ -1,0 +1,799 @@
+ssh-keygen -t ed25519
+ls -l
+ls -la
+cd .ssh
+ls -l
+cat id_ed25519.pub
+pwd
+cd ..
+pwd
+mkdir clase4
+ls -s
+cd clase4
+echo asd
+echo lineal > archivo1.txt
+ls -l
+ls -s
+ls -la
+clear
+pws
+psw
+pws
+pwd
+cat archivo.txt
+cat archivo1.txt 
+clear
+pwd
+cat > archivo2.txt
+cat archivo1 >> archivo2
+cat archivo1.txt >> archivo2.txt
+sudo apt install tree
+sudo snapt install tree
+sudo snap install tree
+tree
+clear
+mkdir pratica
+ls -l
+cd ..
+cd practica
+cd clase4
+cd practica
+cd pratica
+rm dir pratica
+cd..
+cd ..
+rm dir pratica
+rm dir pratica/
+rm dir pratica
+pdw
+clear
+rm pratica
+rm pratica/
+rmdir pratica
+mkdir practica
+cd practica
+touch practica1.txt
+ls -l
+cp practica1.txt practica2.txt
+ls -s
+rm practica1.txt
+ls -l
+mv practica2.txt /home/vagrant/clase4
+ls -l
+ls -s
+ls -la
+clear
+cd ..
+ls -l
+mkdir practica
+rm practica
+rmdir practica
+exit
+ls -l
+mkdir clase 5
+cd clase 5
+mkdir clase5
+cd clase5
+pwd
+ls -l
+tree
+rmdir clase 5
+mk dir -p clientes/{facturas,pedidos}
+mkdir -p clientes/{facturas,pedidos}
+tree
+mkdir -p {
+rmdir {
+mkdir -p {clientes,proveedores}/{facturas,pedidos}
+tree
+mkdir -p contactos/{clientes,proveedores}/{facturas,pedidos}
+tree
+mkdir -p kosinski_1/contactos/{clientes,proveedores}/{facturas,pedidos}
+tree
+mkdir facturas pedidos
+tree
+mkdir -p kosinski_2/{mama/hijo}}
+tree
+rm -r kosinski_2
+tree
+mkdir -p kosinski_2/{mama/hijo{1..3},papa/{hijo{1..3},ahijado}}
+tree
+who
+whoami
+w
+clear
+tree
+cd..
+cd ..
+cat /etc/passwd
+grep -i vagrant /etc/passwd
+cat /etc/shadow
+sudo cat /etc/shadow
+sudo grep -i vagrant /etc/shadow
+cat /etc/group
+grep vagrant /etc/group
+sudo su
+clear
+groupadd Alumnos
+sudo groupadd Alumnos
+cat etc/group
+cat /etc/group
+useradd -m -s /bin/bash -c "Usuario pepe" -G Alumnos pepe
+sudo useradd -m -s /bin/bash -c "Usuario pepe" -G Alumnos pepe
+cat etc/group
+cat /etc/group
+cat etc/group
+cat /etc/passwd
+ls -l /home
+passwd pepe
+sudo passwd pepe
+su - pepe
+sudo usermod -aG sudo pepe
+su - pepe
+clear
+pwd
+ls -l
+clear
+cd repogit
+tree
+clear
+ls -s
+git clone 
+Luca@DESKTOP-JV3T0BR MINGW64 ~ (master)
+$ cd d:\SO\repogit\UTN-FRA_SO_Vagrant\VagrantFiles\1_equipo
+bash: cd: d:SOrepogitUTN-FRA_SO_VagrantVagrantFiles1_equipo: No such file or directory
+Luca@DESKTOP-JV3T0BR MINGW64 ~ (master)
+$ cd D:\SO\repogit\UTN-FRA_SO_Vagrant\VagrantFiles\1_equipo
+bash: cd: D:SOrepogitUTN-FRA_SO_VagrantVagrantFiles1_equipo: No such file or directory
+Luca@DESKTOP-JV3T0BR MINGW64 ~ (master)
+$ cd /d/SO/repogit/UTN-FRA_SO_Vagrant/VagrantFiles/1_equipo
+Luca@DESKTOP-JV3T0BR MINGW64 /d/SO/repogit/UTN-FRA_SO_Vagrant/VagrantFiles/1_equipo (master)
+$ vagrant up
+Bringing machine 'default' up with 'virtualbox' provider...
+==> default: Checking if box 'ubuntu/jammy64' version '20241002.0.0' i
+s up to date...
+==> default: Clearing any previously set forwarded ports...
+==> default: Clearing any previously set network interfaces...
+==> default: Preparing network interfaces based on configuration...
+==> default: Forwarding ports...
+==> default: Running 'pre-boot' VM customizations...
+==> default: Booting VM...
+==> default: Waiting for machine to boot. This may take a few minutes.
+..
+==> default: Machine booted and ready!
+==> default: Checking for guest additions in VM...
+ly. If you see
+s within the
+installed on
+==> default: Setting hostname...
+==> default: Configuring and enabling network interfaces...
+==> default: Mounting shared folders...
+==> default: Machine already provisioned. Run `vagrant provision` or u
+se the `--provision`
+==> default: flag to force provisioning. Provisioners marked to run al
+ways will still run.
+==> default: Machine 'default' has a post `vagrant up` message. This i
+s a message
+==> default: from the creator of the Vagrantfile, and not from Vagrant
+==> default:
+==> default:   #######################################################
+####################
+==> default:   #
+==> default:   # Para Ingresar a la VM puede usar cualquiera de las do
+s opciones:
+==> default:   #
+==> default:   #######################################################
+####################
+==> default:   # 1. (usar Vagrant)
+==> default:
+==> default:   vagrant ssh
+==> default:
+==> default:   # 2. Usar SSH indicando la key Privada
+==> default:   # Puede usar la private_key proporcionada por vagrant
+==> default:
+==> default:   ssh -i .vagrant/machines/default/virtualbox/private_key
+==> default:
+Luca@DESKTOP-JV3T0BR MINGW64 /d/SO/repogit/UTN-FRA_SO_Vagrant/VagrantFiles/1_equipo (master)
+$ vagrant ssh
+Welcome to Ubuntu 22.04.5 LTS (GNU/Linux 5.15.0-144-generic x86_64)
+Expanded Security Maintenance for Applications is not enabled.
+0 updates can be applied immediately.
+Enable ESM Apps to receive additional future security updates.
+See https://ubuntu.com/esm or run: sudo pro status
+The list of available updates is more than a week old.
+To check for new updates run: sudo apt update
+New release '24.04.3 LTS' available.
+Run 'do-release-upgrade' to upgrade to it.
+Last login: Fri Sep 12 13:01:35 2025 from 10.0.2.2
+vagrant@VMPruebas:~$ ls -l
+total 16
+-rw-r--r-- 1 root    root       5 Sep 12 12:46 README
+drwxrwxrwx 1 vagrant vagrant    0 Sep 12 12:36 carpeta_compartida
+drwxrwxr-x 2 vagrant vagrant 4096 Sep 12 15:26 clase4
+drwxrwxr-x 3 vagrant vagrant 4096 Sep 12 12:46 repogit
+drwx------ 3 vagrant vagrant 4096 Sep 12 15:04 snap
+vagrant@VMPruebas:~$ mkdir clase 5
+vagrant@VMPruebas:~$ cd clase 5
+-bash: cd: too many arguments
+vagrant@VMPruebas:~$ cd clase 5
+-bash: cd: too many arguments
+vagrant@VMPruebas:~$ mkdir clase5
+vagrant@VMPruebas:~$ cd clase5
+vagrant@VMPruebas:~/clase5$ pwd
+/home/vagrant/clase5
+vagrant@VMPruebas:~/clase5$ ls -l
+total 0
+vagrant@VMPruebas:~/clase5$ tree
+.
+0 directories, 0 files
+vagrant@VMPruebas:~/clase5$ rmdir clase 5
+rmdir: failed to remove 'clase': No such file or directory
+rmdir: failed to remove '5': No such file or directory
+vagrant@VMPruebas:~/clase5$ mk dir -p clientes/{facturas,pedidos}
+mk: command not found
+vagrant@VMPruebas:~/clase5$
+vagrant@VMPruebas:~/clase5$ mkdir -p clientes/{facturas,pedidos}
+vagrant@VMPruebas:~/clase5$ tree
+.
+└── clientes
+4 directories, 0 files
+vagrant@VMPruebas:~/clase5$ mkdir -p {
+vagrant@VMPruebas:~/clase5$ rmdir {
+vagrant@VMPruebas:~/clase5$ mkdir -p {clientes,proveedores}/{facturas,pedidos}
+vagrant@VMPruebas:~/clase5$ tree
+.
+├── clientes
+│   ├── facturas
+│   └── pedidos
+└── proveedores
+7 directories, 0 files
+vagrant@VMPruebas:~/clase5$ mkdir -p contactos/{clientes,proveedores}/{facturas,pedidos}
+vagrant@VMPruebas:~/clase5$ tree
+.
+├── clientes
+│   ├── facturas
+│   └── pedidos
+├── contactos
+│   ├── clientes
+│   │   ├── facturas
+│   │   └── pedidos
+│   └── proveedores
+│       ├── facturas
+│       └── pedidos
+└── proveedores
+14 directories, 0 files
+vagrant@VMPruebas:~/clase5$ mkdir -p kosinski_1/contactos/{clientes,proveedores}/{facturas,ped
+idos}vagrant@VMPruebas:~/clase5$ tree
+.
+├── clientes
+│   ├── facturas
+│   └── pedidos
+├── contactos
+│   ├── clientes
+│   │   ├── facturas
+│   │   └── pedidos
+│   └── proveedores
+│       ├── facturas
+│       └── pedidos
+├── kosinski_1
+│   └── contactos
+│       ├── clientes
+│       │   ├── facturas
+│       │   └── pedidos
+│       └── proveedores
+│           ├── facturas
+│           └── pedidos
+22 directories, 0 files
+vagrant@VMPruebas:~/clase5$ mkdir facturas pedidos
+vagrant@VMPruebas:~/clase5$ tree
+.
+├── clientes
+│   ├── facturas
+│   └── pedidos
+├── contactos
+│   ├── clientes
+│   │   ├── facturas
+│   │   └── pedidos
+│   └── proveedores
+│       ├── facturas
+│       └── pedidos
+├── facturas
+├── kosinski_1
+│   └── contactos
+│       ├── clientes
+│       │   ├── facturas
+│       │   └── pedidos
+│       └── proveedores
+│           ├── facturas
+│           └── pedidos
+├── pedidos
+└── proveedores
+24 directories, 0 files
+vagrant@VMPruebas:~/clase5$ mkdir -p kosinski_2/{mama/hijo}}
+vagrant@VMPruebas:~/clase5$ tree
+.
+├── clientes
+│   ├── facturas
+│   └── pedidos
+├── contactos
+│   ├── clientes
+│   │   ├── facturas
+│   │   └── pedidos
+│   └── proveedores
+│       ├── facturas
+│       └── pedidos
+├── facturas
+├── kosinski_1
+│   └── contactos
+│       ├── clientes
+│       │   ├── facturas
+│       │   └── pedidos
+│       └── proveedores
+│           ├── facturas
+│           └── pedidos
+├── kosinski_2
+│   └── {mama
+│       └── hijo}}
+├── pedidos
+└── proveedores
+27 directories, 0 files
+vagrant@VMPruebas:~/clase5$ rm -r kosinski_2
+vagrant@VMPruebas:~/clase5$ tree
+.
+├── clientes
+│   ├── facturas
+│   └── pedidos
+├── contactos
+│   ├── clientes
+│   │   ├── facturas
+│   │   └── pedidos
+│   └── proveedores
+│       ├── facturas
+│       └── pedidos
+├── facturas
+├── kosinski_1
+│   └── contactos
+│       ├── clientes
+│       │   ├── facturas
+│       │   └── pedidos
+│       └── proveedores
+│           ├── facturas
+│           └── pedidos
+├── pedidos
+└── proveedores
+24 directories, 0 files
+vagrant@VMPruebas:~/clase5$ mkdir -p kosinski_2/{mama/hijo{1..3},papa/{hijo{1..3},ahijado}}
+vagrant@VMPruebas:~/clase5$ tree
+.
+├── clientes
+│   ├── facturas
+│   └── pedidos
+├── contactos
+│   ├── clientes
+│   │   ├── facturas
+│   │   └── pedidos
+│   └── proveedores
+│       ├── facturas
+│       └── pedidos
+├── facturas
+vagrant@VMPruebas:~/clase5$ tree
+.
+├── clientes
+│   ├── facturas
+│   └── pedidos
+├── contactos
+│   ├── clientes
+│   │   ├── facturas
+│   │   └── pedidos
+│   └── proveedores
+│       ├── facturas
+│       └── pedidos
+├── facturas
+├── kosinski_1
+│   └── contactos
+│       ├── clientes
+│       │   ├── facturas
+│       │   └── pedidos
+│       └── proveedores
+│           ├── facturas
+│           └── pedidos
+├── kosinski_2
+│   ├── mama
+│   │   ├── hijo1
+│   │   ├── hijo2
+│   │   └── hijo3
+│   └── papa
+│       ├── ahijado
+│       ├── hijo1
+│       ├── hijo2
+│       └── hijo3
+├── pedidos
+└── proveedores
+34 directories, 0 files
+vagrant@VMPruebas:~/clase5$ cd..
+cd..: command not found
+vagrant@VMPruebas:~/clase5$ cd ..
+vagrant@VMPruebas:~$ cat /etc/passwd
+root:x:0:0:root:/root:/bin/bash
+daemon:x:1:1:daemon:/usr/sbin:/usr/sbin/nologin
+bin:x:2:2:bin:/bin:/usr/sbin/nologin
+sys:x:3:3:sys:/dev:/usr/sbin/nologin
+sync:x:4:65534:sync:/bin:/bin/sync
+games:x:5:60:games:/usr/games:/usr/sbin/nologin
+man:x:6:12:man:/var/cache/man:/usr/sbin/nologin
+lp:x:7:7:lp:/var/spool/lpd:/usr/sbin/nologin
+mail:x:8:8:mail:/var/mail:/usr/sbin/nologin
+news:x:9:9:news:/var/spool/news:/usr/sbin/nologin
+uucp:x:10:10:uucp:/var/spool/uucp:/usr/sbin/nologin
+proxy:x:13:13:proxy:/bin:/usr/sbin/nologin
+www-data:x:33:33:www-data:/var/www:/usr/sbin/nologin
+backup:x:34:34:backup:/var/backups:/usr/sbin/nologin
+list:x:38:38:Mailing List Manager:/var/list:/usr/sbin/nologin
+irc:x:39:39:ircd:/run/ircd:/usr/sbin/nologin
+gnats:x:41:41:Gnats Bug-Reporting System (admin):/var/lib/gnats:/usr/sbin/nologin
+nobody:x:65534:65534:nobody:/nonexistent:/usr/sbin/nologin
+systemd-network:x:100:102:systemd Network Management,,,:/run/systemd:/usr/sbin/nologin
+systemd-resolve:x:101:103:systemd Resolver,,,:/run/systemd:/usr/sbin/nologin
+messagebus:x:102:105::/nonexistent:/usr/sbin/nologin
+systemd-timesync:x:103:106:systemd Time Synchronization,,,:/run/systemd:/usr/sbin/nologin
+syslog:x:104:111::/home/syslog:/usr/sbin/nologin
+_apt:x:105:65534::/nonexistent:/usr/sbin/nologin
+tss:x:106:112:TPM software stack,,,:/var/lib/tpm:/bin/false
+uuidd:x:107:113::/run/uuidd:/usr/sbin/nologin
+tcpdump:x:108:114::/nonexistent:/usr/sbin/nologin
+sshd:x:109:65534::/run/sshd:/usr/sbin/nologin
+pollinate:x:110:1::/var/cache/pollinate:/bin/false
+landscape:x:111:116::/var/lib/landscape:/usr/sbin/nologin
+fwupd-refresh:x:112:117:fwupd-refresh user,,,:/run/systemd:/usr/sbin/nologin
+vagrant:x:1000:1000:,,,:/home/vagrant:/bin/bash
+ubuntu:x:1001:1001:Ubuntu:/home/ubuntu:/bin/bash
+lxd:x:999:100::/var/snap/lxd/common/lxd:/bin/false
+vagrant@VMPruebas:~$ grep -i vagrant /etc/passwd
+vagrant:x:1000:1000:,,,:/home/vagrant:/bin/bash
+vagrant@VMPruebas:~$
+vagrant@VMPruebas:~$ cat /etc/shadow
+cat: /etc/shadow: Permission denied
+vagrant@VMPruebas:~$ sudo cat /etc/shadow
+root:*:20294:0:99999:7:::
+daemon:*:20294:0:99999:7:::
+bin:*:20294:0:99999:7:::
+sys:*:20294:0:99999:7:::
+sync:*:20294:0:99999:7:::
+games:*:20294:0:99999:7:::
+man:*:20294:0:99999:7:::
+lp:*:20294:0:99999:7:::
+mail:*:20294:0:99999:7:::
+news:*:20294:0:99999:7:::
+uucp:*:20294:0:99999:7:::
+proxy:*:20294:0:99999:7:::
+cd repogit
+git clone https://github.com/lucakss/TP1_AySO_Kosinski_Luca.git
+cd TP1_AySO_Kosinski_Luca/
+ls -s
+ls -l
+clear
+cat /etc/os-release
+grep HOME_URL /etc/os-release
+clear
+grep HOME_URL /etc/os-release
+grep home_url /etc/os-release
+grep -i Home_url /etc/os-release
+grep -i Home_url /etc/os-release se > datos_url.txt
+grep -i Home_url /etc/os-release Se > datos_url.txt
+grep -i Home_url /etc/os-release SE > datos_url.txt
+grep -i Home_url /etc/os-release > datos_url.txt
+tree
+vagrant halt
+cd ..
+vagrant halt
+sudo vagrant halt
+exit
+cd repogit
+ls -s
+cd TP1_AySO_Kosinski_Luca/
+whoami
+tree
+echo “Usuario=$(whoami)” > datos_usuario.txt
+[14:36]
+tree
+cat datos_usuario.txt
+git add .
+git config --global user.email "lucaks06@gmail.com"
+git config --global user.name "lucaks06@gmail.com"
+git config --global user.name "lucakss"
+git commit -m "ADD"
+git status
+git add .
+git commit -m ""ADD: agregado 1er"
+ejercicio sobre datos_usuarios.txt"
+git commit -m "ADD: agregado 1er ejercicio sobre datos_usuarios.txt"
+git push
+clear
+git clone git@github.com:lucakss/TP1_AySO_Kosinski_Luca.git
+grep -i Home_url /etc/os-release > datos_url.txt
+tree
+cd ..
+ls -l
+rm -r TP1_AySO_Kosinski_Luca/
+ls -s
+ls -l
+rmdir -r TP1_AySO_Kosinski_Luca/
+rmdir TP1_AySO_Kosinski_Luca/
+sudo rmdir TP1_AySO_Kosinski_Luca/
+sudo rm -r TP1_AySO_Kosinski_Luca/
+ls -s
+git clone git@github.com:lucakss/TP1_AySO_Kosinski_Luca.git
+ls -s
+cd TP1_AySO_Kosinski_Luca/
+ls -s
+ls -l
+tree
+clear
+grep -i Home_url /etc/os-release > datos_url.txt
+tree
+echo “Usuario=$(whoami)” > datos_usuario.txt}
+tree
+rm -r datos_usuario.txt
+rm -r datos_usuario.txt}
+tree
+echo “Usuario=$(whoami)” > datos_usuario.txt
+git add .
+git config --global user.email "lucaks06@gmail.com"
+git config --global user.name "lucakss"
+git commit "ADD: agregado 1er ejercicio sobre datos_usuarios.txt"
+git commit -m "ADD: agregado 1er ejercicio sobre datos_usuarios.txt"
+git status
+git push
+grep "model name" /proc/cpuinfo | head -n1 >> datos_usuario.txt
+cat datos_usuario.txt
+tree
+git add .
+git commit -m “feat: Añadiendo información de CPU”
+git commit -m “feat: "Añadiendo información de CPU”
+git push
+exit
+cd repogit
+cd TP1_AySO_Kosinski_Luca/
+tree
+cat datos_usuario.txt
+git add datos_usuario.txt
+it commit -m
+git commit -m “feat: Añadiendo información de CPU”
+git add .
+clear
+git status
+git commit -m “feat: Añadiendo información de CPU”
+git commit -m "feat: Añadiendo información de CPU"
+git push
+cat <<EOF >> README.md
+Alumno: <Luca Kosinski>
+División: <114>
+Turno: <Turno Mañana>
+EOF
+
+tree}
+tre
+clear
+tree
+cat README.md
+clear
+cat README.md
+rm -r README.md
+tree
+cat <<EOF >> README.md
+TP1_AySO_Kosinski_Luca 
+Alumno: <Luca Kosinski>
+División: <114>
+Turno: <Turno Mañana>
+EOF
+
+cat README.md
+git add README.md
+git commit -m "ADD: Añadiendo Readme y datos de usuario"
+git push
+cd ..
+tree
+cd clase5/
+cd ..
+cd repogit/
+cd TP1_AySO_Kosinski_Luca/
+mkdir -p {materia1,materia2}/uni{1..3}
+tree
+clear
+tree
+rm -m README.md
+rm -r README.md
+tree
+clear
+cat <<EOF >> README.md
+TP1_AySO_Kosinski_Luca
+Alumno: Facundo Mercado
+División: 114
+Turno: Mañana
+rm -r README.md
+
+ads
+as
+das
+das
+
+
+
+da
+
+v
+
+
+
+
+skjñal
+eo
+EOF
+
+rm -r README.md
+cat <<EOF >> README.md
+TP1_AySO_Kosinski_Luca
+Alumno: Luca Kosinski
+División: 114
+Turno: Mañana
+EOF
+
+tree
+cat README.md 
+git add README.md
+git commit -m "ADD: Añadiendo Readme y datos de usuario"
+git push
+exit
+pwd
+tree
+ls -l
+ls -l /home
+su - pepe
+sudo usermod -aG sudo pepe
+su - pepe
+chgrp vagrant:vagrant /home/pepe/textopepe.txt
+sudo chgrp vagrant:vagrant /home/pepe/textopepe.txt
+sudo chown vagrant:vagrant /home/pepe/textopepe.txt
+sudo ls -l /home/pepe
+su - pepe
+cd clase5
+touch practica1.txt
+touch practica2.txt
+ls ls
+ls -s
+clear
+chmod 600 practica1.txt
+clear
+ls -l
+chmod 444 practica2.txt
+sudo echo "leneal" >> practica2.txt
+chmod 644 practica2.txt
+ls -l
+echo "linea1" >> practica2.txt
+chmod -R 777 clase5/
+chmod -R 777 /clase5
+chmod -R 777 clase5/
+/home
+cd home
+cd /home
+cd .
+cd.
+clear
+exit
+chmod -R 777 clase5/
+ls -l
+cd clase5
+ls -l
+chmod 666 *.txt
+ls -l
+cd ..
+ls -l
+chmod -R 775 clase5/
+ls -l clase5/
+chmod 666 clase5/*.txt
+mkdir clase6
+ls -l
+clear
+cd clase6
+ls -s
+ls -l
+clear
+ls -la
+clear
+ls -la
+cleasr
+clear
+echo ls -l > script1
+cat script1 
+bash script1
+echo tree >> script1
+cat script1 
+bash script1 
+clear
+echo pwd >> script1 
+bash script1 
+echo whoami >> script1 
+bash script1 
+vim script2.sh
+cat script2.sh
+./script2.sh
+chmod 764 script2.sh
+ls -l
+./script2.sh
+tree
+clear
+vim script3.sh
+ls -l
+chmod 764 script3.sh
+ls -l
+./script3.sh
+ls -l
+vim script3.sh
+./script3.sh
+vim script3.sh
+./script3.sh
+ls -l
+clear
+cd.
+cd..
+cd ..
+cd clase7
+ls -l
+clear
+cd ..
+cd clase6
+./script3.sh
+clear
+cd ..
+clear
+cd repogit
+ls -s
+cd TP1_AySO_Kosinski_Luca/
+tree
+rmdir materia1
+rm materia1
+rmdir -r materia1
+rm -r materia1
+rm -r materia2
+tree
+cd ..
+pwd
+mkdir -p {materia1,materia2}/uni{1..3}
+ls -l
+ls -l materia1
+clear
+cd repogit
+cd TP1_AySO_Kosinski_Luca/
+vim script_dir.sh
+chmod 100 script_dir.sh
+tree
+ls -s
+ls -l
+chmod 700 script_dir.sh
+ls -l
+clear
+cd ..
+rm -r materia1
+rm -r materia2
+cd repogit
+cd TP1_AySO_Kosinski_Luca/
+mkdir -p /home/vagrant/{materia1,materia2}/uni{1..3}
+ls -l /home/vagrant
+clear
+git add .
+git status
+git commit -m "ADD: Añadiendo script"
+git push
+cd ..
+exit
+cd repogit
+cd TP1_AySO_Kosinski_Luca/
+lear
+clear
+history -a
+cp ~/.bash_history ./Historial_comandos_Apellido.txt
+cd ..
+tree
+cd repogit/
+cd TP1_AySO_Kosinski_Luca/
+ls -l
+rm -r Historial_comandos_Apellido.txt
